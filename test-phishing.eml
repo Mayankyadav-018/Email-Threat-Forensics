@@ -1,0 +1,26 @@
+From: RBI Security <security@rbi-example.com>
+To: victim@example.com
+Reply-To: support@evil-example.com
+Return-Path: <attacker@evil-example.com>
+Subject: URGENT: Verify Your Account
+Message-ID: <security-test-001@evil-example.com>
+Date: Tue, 1 Sep 2026 10:20:00 +0530
+Received: from mail.evil-example.com (mail.evil-example.com [185.199.108.153])
+    by mx.example.com with ESMTP;
+    Tue, 1 Sep 2026 10:20:00 +0530
+Received: from workstation (workstation [10.0.0.5])
+    by mail.evil-example.com;
+    Tue, 1 Sep 2026 10:19:00 +0530
+Authentication-Results: mx.example.com; spf=fail; dkim=fail; dmarc=fail
+Received-SPF: fail
+Content-Type: text/plain
+
+URGENT!
+
+Your account requires immediate verification.
+
+Click the following link:
+
+https://secure-bank-login-example.com/verify
+
+Failure to verify your account within 24 hours may result in account suspension.

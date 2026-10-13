@@ -78,7 +78,7 @@ export function calculateThreatScore(
   // ============================================================
 
   const spfFailed = input.authentication.spf.some(
-    (value) => value.toLowerCase() === "fail"
+    (value) => value.trim().split("=").pop()?.trim().toLowerCase() === "fail"
   );
 
   if (spfFailed) {
